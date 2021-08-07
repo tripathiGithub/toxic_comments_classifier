@@ -2,7 +2,7 @@ from fastai.text.all import *
 import streamlit as st
 path = Path(__file__).parent
 learn = load_learner(path/'saved'/'export.pkl')
-
+st.set_page_config(layout='wide')
 st.header('Comments')
 
 
