@@ -1,5 +1,6 @@
 #from fastai.text.all import *'
 from fastai.learner import load_learner
+from pathlib import Path
 import streamlit as st
 path = Path(__file__).parent
 learn = load_learner(path/'saved'/'export.pkl')
