@@ -91,11 +91,10 @@ def show_user_comment(text):
     
 
 
-if 'texts' not in st.session_state:
-    st.session_state.texts = []
+if 'text' not in st.session_state:
+    st.session_state.text = ''
 else:
-    for txt in st.session_state.texts:
-       show_user_comment(txt) 
+    show_user_comment(st.session_state.text) 
 
 
 with st.form('Form', clear_on_submit=True): 
@@ -108,7 +107,7 @@ if btn and text is not '':
     if toxic:
         st.error(f"Failed: Your comment seems to be {' , '.join([i.upper() for i in toxic])}. Posting such comments are not allowed here.")
     else:
-        st.session_state.texts.append(text)
+        st.session_state.text = text
         show_user_comment(text)
         st.success('Your Comment has been posted')
 
