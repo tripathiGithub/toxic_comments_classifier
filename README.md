@@ -12,6 +12,11 @@ This project aims to build a Multi-label Classification model capable of detecti
 For this Project I have used a Deep Learning model. This project is demonstration of a technique called ULMFit(Universal Language model fine-tuning). This is a transfer learning technique that can be used for text related tasks such as this. This approach has been combined with other modern deep learning practices (discriminative-learning-rates, gradual-unfreezing, etc) to get good results. The target labels were not distributed uniformly and were highly imbalanced, so that was also a challenge to get good results on all class labels
 
 ### Results on test data:
+
+<p>
+  <img alt="Report" src="https://github.com/tripathiGithub/toxic_comments_classifier/blob/master/Results/toxic1.png" width="40%">
+  <img alt="Report" src="https://github.com/tripathiGithub/toxic_comments_classifier/raw/master/Results/bad_comments.gif" width="60%">
+</p>
 ![image](https://github.com/tripathiGithub/toxic_comments_classifier/blob/master/Results/toxic1.png) ![image](https://github.com/tripathiGithub/toxic_comments_classifier/raw/master/Results/bad_comments.gif)
 
 
