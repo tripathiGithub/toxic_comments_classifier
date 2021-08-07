@@ -18,7 +18,7 @@ For this Project I have used a Deep Learning model. This project is demonstratio
 ### Results on test data:
 
 <p>
-  <img alt="Report" src="https://github.com/tripathiGithub/toxic_comments_classifier/blob/master/Results/toxic1.png" width="40%"> <img alt="Report" src="https://github.com/tripathiGithub/toxic_comments_classifier/raw/master/Results/bad_comments.gif" width="50%">
+  <img alt="Report" src="https://github.com/tripathiGithub/toxic_comments_classifier/blob/master/Results/toxic1.png" width="30%"> <img alt="Report" src="https://github.com/tripathiGithub/toxic_comments_classifier/raw/master/Results/bad_comments.gif" width="68%">
 </p>
 
 
