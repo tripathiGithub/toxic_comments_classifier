@@ -37,7 +37,7 @@ color: #547ef8;
   padding-bottom: 0px;
   line-height: 25px;
   letter-spacing: 1px;
-      color: #999999;
+
 }}
 
 </style>''', unsafe_allow_html = True)
