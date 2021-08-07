@@ -118,7 +118,7 @@ with st.sidebar:
     st.write('This Demo app shows how we can restrict users from posting such toxic comments online')
     st.write('Types of Toxicity:')
     for i in ['toxic','severe_toxic','obscene','threat','insult','identity_hate']:
-        st.text(f' \t --{i}')
+        st.button(f' \t --{i}')
     
     with st.beta_expander('Dataset Link'):
         st.write('https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data')          
