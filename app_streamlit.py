@@ -120,6 +120,6 @@ with st.sidebar:
         col1.write(f'- {i}')
     for i in  ['Threat','Insult','Identity_hate']:
         col2.write(f'- {i}')
-    
+    st.write('')
     with st.beta_expander('Dataset Link'):
         st.write('https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data')          
