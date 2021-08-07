@@ -13,12 +13,13 @@ For this Project I have used a Deep Learning model. This project is demonstratio
 
 #### The code needed to train the model is detailed in here https://github.com/amancrackpot/ImageClassification_Covid_X_Ray_Scans/blob/main/covid-classification-resnet50.ipynb
 
-#### Dataset available at https://www.kaggle.com/tawsifurrahman/covid19-radiography-database
+#### Dataset available at https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data
+
 
 ### Results on test data:
 
 <p>
-  <img alt="Report" src="https://github.com/tripathiGithub/toxic_comments_classifier/blob/master/Results/toxic1.png" width="30%"> <img alt="Report" src="https://github.com/tripathiGithub/toxic_comments_classifier/raw/master/Results/bad_comments.gif" width="68%">
+  <img alt="Report" src="https://github.com/tripathiGithub/toxic_comments_classifier/blob/master/Results/toxic1.png" width="35%"> <img alt="Report" src="https://github.com/tripathiGithub/toxic_comments_classifier/raw/master/Results/bad_comments.gif" width="64%">
 </p>
 
 
