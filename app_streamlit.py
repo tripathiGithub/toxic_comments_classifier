@@ -112,7 +112,7 @@ if btn and text is not '':
         st.success('Your Comment has been posted')
 
 with st.sidebar:
-    st.title('Toxic Comments Identification')
+    st.title('Toxic Comments')
     st.write('The threat of abuse and harassment online means that many people stop expressing themselves and give up on seeking different opinions. This Demo app shows how we can restrict users from posting such toxic comments online')
     st.write('Types of Toxicity in Comments:')
     col1, col2 = st.beta_columns(2)
