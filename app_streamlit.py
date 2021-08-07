@@ -1,7 +1,7 @@
 from fastai.text.all import *
 import streamlit as st
 path = Path(__file__).parent
-learn = load_learner(path/'saved'/'export_win10.pkl')
+learn = load_learner(path/'saved'/'export.pkl')
 
 st.header('Comments')
 
