@@ -114,6 +114,7 @@ if btn and text is not '':
         st.success('Your Comment has been posted')
 
 with st.sidebar:
+    st.image('https://habrastorage.org/getpro/habr/post_images/033/f41/dc8/033f41dc822d3a2f111d8b1116ba67b6.gif')
     st.title('Toxic Comments')
     st.write('The threat of abuse and harassment online means that many people stop expressing themselves and give up on seeking different opinions. This Demo app shows how we can restrict users from posting such toxic comments online')
     st.write('Types of Toxicity in Comments:')
