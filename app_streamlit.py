@@ -99,8 +99,8 @@ def show_user_comment(text):
 #     show_user_comment(st.session_state.text) 
 
 
-with st.form('Form', clear_on_submit=True): 
-    text = st.text_area("Write what's on your mind")
+with st.form('Form', clear_on_submit=False): 
+    text = st.text_area("Write what's on your mind", height=10)
     btn = st.form_submit_button('Comment')
     
 
