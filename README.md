@@ -1,6 +1,6 @@
 # Toxic Comments Classifier
 
-## Web App Link : https://share.streamlit.io/tripathigithub/toxic_comments_classifier/app_streamlit.py
+### Web App Link : https://share.streamlit.io/tripathigithub/toxic_comments_classifier/app_streamlit.py
 
 Discussing things we care about can be difficult. The threat of abuse and harassment online means that many people stop expressing themselves and give up on seeking different opinions. Platforms struggle to effectively facilitate conversations, leading many communities to limit or completely shut down user comments.
 
