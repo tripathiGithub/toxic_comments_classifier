@@ -98,20 +98,20 @@ def show_user_comment(text):
 # else:
 #     show_user_comment(st.session_state.text) 
 
-
+infer = st.empty()
 with st.form('Form', clear_on_submit=False): 
-    text = st.text_area("Write what's on your mind", height=6)
+    text = st.text_area("Write what's on your mind")
     btn = st.form_submit_button('Comment')
     
 
 if btn and text is not '':
     toxic = list(learn.predict(text)[0])
     if toxic:
-        st.error(f"Failed: Your comment seems to be {' , '.join([i.upper() for i in toxic])}. Posting such comments are not allowed here.")
+        infer.error(f"Failed: Your comment seems to be {' , '.join([i.upper() for i in toxic])}. Posting such comments are not allowed here.")
     else:
         #st.session_state.text = text
         show_user_comment(text)
-        st.success('Your Comment has been posted')
+        infer.success('Your Comment has been posted')
 
 with st.sidebar:
     st.image('https://habrastorage.org/getpro/habr/post_images/033/f41/dc8/033f41dc822d3a2f111d8b1116ba67b6.gif')
