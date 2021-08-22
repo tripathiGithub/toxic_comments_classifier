@@ -14,7 +14,8 @@ This project aims to build a Multi-label Classification model capable of detecti
 
 For this Project I have used a Deep Learning model. This project is demonstration of a technique called ULMFit(Universal Language model fine-tuning). This is a transfer learning technique that can be used for text related tasks such as this. This approach has been combined with other modern deep learning practices (discriminative-learning-rates, gradual-unfreezing, etc) to get good results. The target labels were not distributed uniformly and were highly imbalanced, so that was also a challenge to get good results on all class labels
 
-#### The code needed to train the model is detailed in here https://github.com/tripathiGithub/toxic_comments_classifier/blob/master/toxic-comment-identification_ULMFiT.ipynb
+#### The code needed to train the model is detailed in here https://nbviewer.jupyter.org/github/tripathiGithub/toxic_comments_classifier/blob/master/toxic-comment-identification_ULMFiT.ipynb
+(Use this link only to see the code instead of using ipynb from github directly becacuse github does not renders ipynb files properly)
 
 #### Dataset available at https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data
 
